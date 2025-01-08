@@ -1,0 +1,118 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 14px;
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Grey-900);
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.2rem 0 1.2rem 0;
+    padding: 1.2rem;
+    border-radius: 10px;
+    background-color: var(--Grey-800);
+    color: var(--White);
+    max-width: 100%;
+    width: 300px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: .9rem .8rem 2rem .8rem;
+}
+
+.header .header-image {
+    width: 65px;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
+
+.header .header-location {
+    color: var(--Green);
+    margin: .5rem 0 1.4rem 0;
+    font-size: .8rem;
+}
+
+.header .header-description {
+    font-size: .9rem;
+    margin-top: 1rem;
+}
+
+.social-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    gap: 1rem;
+}
+
+.social-link {
+    background-color: var(--Grey-700);
+    width: 260px;
+    text-align: center;
+    padding: .8rem 1.2rem;
+    max-width: 100%;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.social-link:hover {
+    cursor: pointer;
+    background-color: var(--Green);
+    color: var(--Grey-900);
+}
+
+@media (min-width: 420px) {
+    .main-content {
+        margin-top: 1.8rem;
+        padding: 2.2rem;
+        width: 330px;
+    }
+
+    .header {
+        width: 350px;
+    }
+
+    .header .header-image {
+        width: 80px;
+    }
+
+    .header .header-name {
+        font-size: 1.8rem;
+    }
+
+    .header .header-location {
+        font-size: 1rem;
+    }
+
+    .header .header-description {
+        font-size: 1.1rem;
+    }
+
+    .social-link {
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+}
