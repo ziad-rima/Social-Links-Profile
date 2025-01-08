@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://your-solution-url.com)
-- [Live site URL](https://sociallinksfrontend.netlify.app/)
+- [Live site URL](https://socialprofilefrontend.netlify.app/)
 
 ## My process
 

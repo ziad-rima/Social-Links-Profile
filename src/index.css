@@ -84,6 +84,21 @@ body {
     color: var(--Grey-900);
 }
 
+.attribution {
+    color: var(--White);
+    display: flex;
+    justify-content: center;
+}
+
+.attribution a {
+    color: rgb(137, 137, 235);
+    margin-left: .2rem;
+}
+
+.attribution a:hover {
+    color: var(--Green);
+}
+
 @media (min-width: 420px) {
     .main-content {
         margin-top: 1.8rem;
