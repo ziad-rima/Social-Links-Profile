@@ -78,6 +78,8 @@ const HomeSocials = () => {
 export default HomeSocials
 ```
 It might look not very practical at first, but in fact, it is practical when working with larger projects, it'd help maintaining an organized structure.
+
+Since I'm using `react` and `vite` for this project, I ran the command `npm run build` which created the `dist` folder containing the optimized files for deployment.
 ### Built with
 
 - Semantic HTML5 markup
