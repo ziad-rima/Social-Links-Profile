@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/react-social-links-profile-CXoX0N7WJ7)
 - [Live site URL](https://socialprofilefrontend.netlify.app/)
 
 ## My process
